@@ -16,18 +16,10 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.main {
+  background-image: url('/beach-photo-by-Sam-Hulla.jpg');
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
 }
